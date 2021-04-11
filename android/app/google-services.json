@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "225690305956",
+    "project_id": "ksucta-emc1",
+    "storage_bucket": "ksucta-emc1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:225690305956:android:4d3c1f92159852e0a62d31",
+        "android_client_info": {
+          "package_name": "com.example.emc"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "225690305956-o7ud0cci7nerrekt5q3ensenu3ps461c.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD1vs-XTUkrOxtfe9TK72Uk6ZRe-HHg2Iw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "225690305956-o7ud0cci7nerrekt5q3ensenu3ps461c.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
