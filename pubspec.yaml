@@ -32,11 +32,17 @@ dependencies:
   # firebase_auth: ^1.0.3
   flutter_cached_pdfview: ^0.3.5
   get: ^4.1.4
+  flutter_launcher_icons: ^0.9.0
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
 
+
+flutter_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/icons/app_icon.png"
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec
 
@@ -50,12 +56,16 @@ flutter:
 
   # To add assets to your application, add an assets section, like this:
   assets:
+    - assets/title.pdf
     - assets/discipline_description.pdf
     - assets/working_program.pdf
     - assets/valuation_fund.pdf
     - assets/students_work_graphics.pdf
     - assets/methodological_instructions_for_laboratory_work.pdf
-    - assets/images/drawer_header_image.jpg
+    - assets/syllabus.pdf
+    - assets/images/
+    - assets/lections/
+    - assets/icons/
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware.

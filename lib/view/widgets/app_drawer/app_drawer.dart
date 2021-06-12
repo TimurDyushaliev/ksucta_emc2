@@ -1,8 +1,9 @@
 import 'package:emc/constants/app_drawer_constants.dart';
 import 'package:emc/controllers/app_drawer_controller.dart';
-import 'package:emc/widgets/app_drawer/app_drawer_item.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
+
+import 'app_drawer_item.dart';
 
 class AppDrawer extends StatelessWidget {
   final PageController pageController;
@@ -21,7 +22,7 @@ class AppDrawer extends StatelessWidget {
           children: [
             DrawerHeader(
                 child: Image.asset(
-              'assets/images/drawer_header_image.jpg',
+              'assets/images/drawer_header_image2.jpg',
               fit: BoxFit.cover,
             )),
             Expanded(
@@ -31,7 +32,7 @@ class AppDrawer extends StatelessWidget {
                   mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: List.generate(
-                    5,
+                    AppDrawerConstants.itemsTexts.length,
                     (index) => Obx(
                       () => AppDrawerItem(
                         text: AppDrawerConstants.itemsTexts[index],
