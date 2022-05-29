@@ -56,15 +56,8 @@ flutter:
 
   # To add assets to your application, add an assets section, like this:
   assets:
-    - assets/title.pdf
-    - assets/discipline_description.pdf
-    - assets/working_program.pdf
-    - assets/valuation_fund.pdf
-    - assets/students_work_graphics.pdf
-    - assets/methodological_instructions_for_laboratory_work.pdf
-    - assets/syllabus.pdf
+    - assets/pdfs/
     - assets/images/
-    - assets/lections/
     - assets/icons/
 
   # An image asset can refer to one or more resolution-specific "variants", see

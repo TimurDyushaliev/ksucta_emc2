@@ -1,7 +1,6 @@
 import 'package:emc/constants/app_drawer_constants.dart';
 import 'package:emc/constants/pdf_files_paths.dart';
 import 'package:emc/view/widgets/app_drawer/app_drawer.dart';
-import 'package:emc/view/widgets/lecture_notes.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_cached_pdfview/flutter_cached_pdfview.dart';
@@ -23,9 +22,6 @@ class HomePage extends StatelessWidget {
         itemCount: AppDrawerConstants.itemsTexts.length,
         controller: pageController,
         itemBuilder: (context, index) {
-          if (index == AppDrawerConstants.itemsTexts.length - 1) {
-            return LectureNotes();
-          }
           return PDF(
             enableSwipe: true,
             swipeHorizontal: true,
