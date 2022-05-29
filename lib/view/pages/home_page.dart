@@ -15,7 +15,7 @@ class HomePage extends StatelessWidget {
       appBar: AppBar(
         title: Text('КГУСТА'),
         backgroundColor: Colors.black,
-        brightness: Brightness.dark,
+        systemOverlayStyle: SystemUiOverlayStyle.light,
       ),
       drawer: AppDrawer(pageController: pageController),
       body: PageView.builder(

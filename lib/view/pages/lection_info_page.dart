@@ -1,18 +1,19 @@
 import 'package:flutter/material.dart';
+import 'package:flutter/services.dart';
 import 'package:flutter_cached_pdfview/flutter_cached_pdfview.dart';
 
 class LectionInfoPage extends StatelessWidget {
   final String asset;
   final String title;
 
-  LectionInfoPage({this.asset,this.title=''});
+  LectionInfoPage({this.asset, this.title = ''});
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
         appBar: AppBar(
           backgroundColor: Colors.black,
-          brightness: Brightness.dark,
+          systemOverlayStyle: SystemUiOverlayStyle.light,
           title: Text(title),
         ),
         body: PDF(
